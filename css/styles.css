@@ -103,6 +103,7 @@ body {
 }
 .hero-section {
 	background-color: var(--h1-bacground-color);
+	width: 1600px;
 }
 .title-main-page {
 	font-size: 44px;
@@ -111,6 +112,10 @@ body {
 	letter-spacing: 0.06em;
 	color: var(--logo-third-color);
 	text-align: center;
+	width: 696px;
+	margin-top: 200px;
+	margin-left: 452px;
+	margin-bottom: 30px;
 }
 .button-main-page {
 	color: var(--logo-third-color);
@@ -126,6 +131,8 @@ body {
 	text-align: center;
 	cursor: pointer;
 	line-height: 1.19;
+	margin-top: 30px;
+	margin-left: 700px;
 }
 .visually-hidden {
 	position: absolute;
@@ -249,8 +256,26 @@ footer {
 .header {
 	width: 1600px;
 	height: 80px;
-	left: 0;
-	right: 0;
-	position: absolute;
 	border-bottom: var(--line-color) solid 1px;
+}
+.project1 {
+	position: absolute;
+	width: 370px;
+	height: 404px;
+	left: 215px;
+	top: 262px;
+}
+.project2 {
+	position: absolute;
+	width: 370px;
+	height: 294px;
+	left: 615px;
+	top: 262px;
+}
+.project3 {
+	position: absolute;
+	width: 370px;
+	height: 294px;
+	left: 1015px;
+	top: 262px;
 }
