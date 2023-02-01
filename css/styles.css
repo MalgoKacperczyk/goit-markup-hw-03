@@ -27,7 +27,7 @@ body {
 	color: var(--header-contact-color);
 	letter-spacing: 0.02em;
 	font-weight: 500;
-	line-height: 1.14em;
+	line-height: 1.14;
 }
 .top-contact:hover {
 	color: var(--accent-color);
@@ -39,7 +39,7 @@ body {
 	color: var(--main-text-color);
 	letter-spacing: 0.02em;
 	font-weight: 500;
-	line-height: 1.14em;
+	line-height: 1.14;
 	font-size: 14px;
 }
 .top-navigation:hover {
@@ -52,7 +52,7 @@ body {
 	color: var(--main-text-color);
 	letter-spacing: 0.02em;
 	font-weight: 500;
-	line-height: 1.14em;
+	line-height: 1.14;
 	font-size: 14px;
 }
 .top-navigation-main-page:hover {
@@ -125,7 +125,7 @@ body {
 	letter-spacing: 0.06em;
 	text-align: center;
 	cursor: pointer;
-	line-height: 1, 19em;
+	line-height: 1.19;
 }
 .visually-hidden {
 	position: absolute;
@@ -159,7 +159,7 @@ body {
 	text-align: center;
 	letter-spacing: 0.03em;
 }
-.third-title-main-page {
+.our-strenghts-third-title {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.19;
@@ -169,12 +169,12 @@ body {
 .team-job {
 	color: var(--header-contact-color);
 	font-size: 16px;
-	line-height: 1.19em;
+	line-height: 1.19;
 	text-align: center;
 	letter-spacing: 0.03em;
 }
 .our-team {
-	background-color: var(--background-color);
+	background-color: var(--filter-button-bacground-color);
 }
 .our-team-name {
 	font-weight: 500;
@@ -195,7 +195,7 @@ body {
 	font-size: 16px;
 	font-weight: 500;
 	font-family: var(--main-font);
-	line-height: 1.6em;
+	line-height: 1.6;
 	border-radius: 4px;
 	letter-spacing: 0.03em;
 }
@@ -212,14 +212,14 @@ body {
 .text-portfolio {
 	color: var(--secondary-text-color);
 	font-weight: 400;
-	line-height: 1.87em;
+	line-height: 1.87;
 	letter-spacing: 0.03em;
 	font-size: 16px;
 }
 .current {
 	color: var(--accent-color);
 	font-weight: 500;
-	line-height: 1.14em;
+	line-height: 1.14;
 }
 .second-title-portfolio {
 	font-weight: 700;
@@ -238,4 +238,19 @@ header {
 }
 footer {
 	background-color: var(--footer-bacground-color);
+}
+.container {
+	width: 1200px;
+}
+.section {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+.header {
+	width: 1600px;
+	height: 80px;
+	left: 0;
+	right: 0;
+	position: absolute;
+	border-bottom: var(--line-color) solid 1px;
 }
