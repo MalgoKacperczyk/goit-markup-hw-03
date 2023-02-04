@@ -166,12 +166,11 @@ body {
 	clip: rect(0 0 0 0);
 	overflow: hidden;
 }
-.third-title-main-page {
-	font-weight: 700;
-	font-size: 14px;
-	letter-spacing: 0.03em;
-	line-height: 1.14;
-	text-transform: uppercase;
+.our-strenghts {
+	display: flex;
+	position: absolute;
+	padding: 0px;
+	margin: 0px;
 }
 .our-strenght-text {
 	font-weight: 400;
@@ -180,15 +179,9 @@ body {
 	color: var(--header-contact-color);
 	letter-spacing: 0.03em;
 }
-.second-title-main-page {
+
+.our-strenghts-title {
 	font-weight: 700;
-	font-size: 36px;
-	line-height: 1.17;
-	text-align: center;
-	letter-spacing: 0.03em;
-}
-.our-strenghts-third-title {
-	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.19;
 	letter-spacing: 0.03em;
@@ -200,6 +193,25 @@ body {
 .one {
 	margin-left: 215px;
 }
+.what-we-do {
+	text-align: center;
+	width: 1170px;
+	margin: auto;
+}
+.what-we-do-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.16;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+.what-we-do-list {
+	display: flex;
+	justify-content: center;
+}
+.what-we-do-item {
+	margin-left: 30px;
+}
 .team-job {
 	color: var(--header-contact-color);
 	font-size: 16px;
@@ -209,6 +221,28 @@ body {
 }
 .our-team {
 	background-color: var(--filter-button-bacground-color);
+	text-align: center;
+	width: 1600px;
+	margin: auto;
+}
+.our-team-list {
+	display: flex;
+	justify-content: center;
+}
+.our-team-item {
+	margin-right: 30px;
+	width: 270px;
+	height: 368px;
+	background-color: var(--background-color);
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 0px 0px 4px 4px;
+}
+.our-team-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.16;
+	text-align: center;
+	letter-spacing: 0.03em;
 }
 .our-team-name {
 	font-weight: 500;
@@ -217,7 +251,6 @@ body {
 	text-align: center;
 	letter-spacing: 0.03em;
 }
-
 .button-portfolio {
 	color: var(--main-text-color);
 	background-color: var(--filter-button-bacground-color);
@@ -280,6 +313,7 @@ footer {
 	width: 1200px;
 	margin: 0 auto;
 	padding: 0 15px;
+	justify-content: center;
 }
 .section {
 	padding-top: 94px;
@@ -305,14 +339,6 @@ footer {
 .mail {
 	margin-right: 50px;
 }
-.our-strenghts {
-	display: flex;
-	position: absolute;
-	padding: 0px;
-}
-.project1 {
-}
-.project2 {
-}
-.project3 {
+.last {
+	margin: 0px;
 }
