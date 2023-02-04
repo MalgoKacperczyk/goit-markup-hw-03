@@ -25,6 +25,9 @@ body {
 }
 .top-contact {
 	display: flex;
+	margin-left: 371px;
+	margin-top: 32px;
+	padding: 0px;
 }
 .top-contact-item {
 	color: var(--header-contact-color);
@@ -39,17 +42,17 @@ body {
 .top-contact-:indeterminate {
 	color: var(--accent-color);
 }
-.top-navigation {
+.top-navigation-portfolio {
 	color: var(--main-text-color);
 	letter-spacing: 0.02em;
 	font-weight: 500;
 	line-height: 1.14;
 	font-size: 14px;
 }
-.top-navigation:hover {
+.top-navigation-portfolio:hover {
 	color: var(--accent-color);
 }
-.top-navigation:focus {
+.top-navigation-portfolio:focus {
 	color: var(--accent-color);
 }
 .top-navigation-main-page {
@@ -65,7 +68,7 @@ body {
 .top-navigation-main-page:focus {
 	color: var(--accent-color);
 }
-.logo {
+.logo-header {
 	font-family: var(--alternative-font);
 	font-weight: 700;
 	font-size: 26px;
@@ -73,6 +76,13 @@ body {
 	color: var(--logo-color);
 	margin-left: 215px;
 	margin-top: 24px;
+}
+.logo-footer {
+	font-family: var(--alternative-font);
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	color: var(--logo-color);
 }
 .logo-accent {
 	color: var(--logo-second-color);
@@ -109,6 +119,7 @@ body {
 .hero-section {
 	background-color: var(--h1-bacground-color);
 	width: 1600px;
+	height: 600px;
 }
 .title-main-page {
 	font-size: 44px;
@@ -117,6 +128,13 @@ body {
 	letter-spacing: 0.06em;
 	color: var(--logo-third-color);
 	text-align: center;
+	text-transform: uppercase;
+	width: 696px;
+	height: 120px;
+	margin-left: 452px;
+	margin-right: 452px;
+	margin-top: 106px;
+	margin-bottom: 30px;
 }
 .button-main-page {
 	color: var(--logo-third-color);
@@ -133,6 +151,7 @@ body {
 	cursor: pointer;
 	line-height: 1.19;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	margin-left: 700px;
 }
 .visually-hidden {
 	position: absolute;
@@ -154,10 +173,12 @@ body {
 	line-height: 1.14;
 	text-transform: uppercase;
 }
-.text-main-page {
+.our-strenght-text {
+	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
 	color: var(--header-contact-color);
+	letter-spacing: 0.03em;
 }
 .second-title-main-page {
 	font-weight: 700;
@@ -170,8 +191,14 @@ body {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.19;
-	text-align: center;
 	letter-spacing: 0.03em;
+}
+.our-strenghts-item {
+	width: 270px;
+	margin-left: 30px;
+}
+.one {
+	margin-left: 215px;
 }
 .team-job {
 	color: var(--header-contact-color);
@@ -227,6 +254,7 @@ body {
 	color: var(--accent-color);
 	font-weight: 500;
 	line-height: 1.14;
+	margin-right: 50px;
 }
 .second-title-portfolio {
 	font-weight: 700;
@@ -242,12 +270,16 @@ ul {
 }
 header {
 	background-color: var(--background-color);
+	width: 1600px;
+	height: 80px;
 }
 footer {
 	background-color: var(--footer-bacground-color);
 }
 .container {
 	width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
 }
 .section {
 	padding-top: 94px;
@@ -261,6 +293,22 @@ footer {
 }
 .menu {
 	display: flex;
+	margin-left: 93px;
+	margin-top: 32px;
+}
+.portfolio {
+	margin-right: 50px;
+}
+.agency {
+	margin-right: 50px;
+}
+.mail {
+	margin-right: 50px;
+}
+.our-strenghts {
+	display: flex;
+	position: absolute;
+	padding: 0px;
 }
 .project1 {
 }
