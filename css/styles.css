@@ -24,15 +24,19 @@ body {
 	color: var(--main-text-color);
 }
 .top-contact {
+	display: flex;
+}
+.top-contact-item {
 	color: var(--header-contact-color);
 	letter-spacing: 0.02em;
 	font-weight: 500;
 	line-height: 1.14;
 }
-.top-contact:hover {
+
+.top-contact-item:hover {
 	color: var(--accent-color);
 }
-.top-contact:focus {
+.top-contact-:indeterminate {
 	color: var(--accent-color);
 }
 .top-navigation {
@@ -67,10 +71,11 @@ body {
 	font-size: 26px;
 	line-height: 1.19;
 	color: var(--logo-color);
+	margin-left: 215px;
+	margin-top: 24px;
 }
 .logo-accent {
 	color: var(--logo-second-color);
-	word-spacing: -6px;
 }
 .logo-bottom {
 	color: var(--logo-third-color);
@@ -112,10 +117,6 @@ body {
 	letter-spacing: 0.06em;
 	color: var(--logo-third-color);
 	text-align: center;
-	width: 696px;
-	margin-top: 200px;
-	margin-left: 452px;
-	margin-bottom: 30px;
 }
 .button-main-page {
 	color: var(--logo-third-color);
@@ -131,8 +132,7 @@ body {
 	text-align: center;
 	cursor: pointer;
 	line-height: 1.19;
-	margin-top: 30px;
-	margin-left: 700px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .visually-hidden {
 	position: absolute;
@@ -254,28 +254,17 @@ footer {
 	padding-bottom: 94px;
 }
 .header {
+	display: flex;
 	width: 1600px;
 	height: 80px;
 	border-bottom: var(--line-color) solid 1px;
 }
+.menu {
+	display: flex;
+}
 .project1 {
-	position: absolute;
-	width: 370px;
-	height: 404px;
-	left: 215px;
-	top: 262px;
 }
 .project2 {
-	position: absolute;
-	width: 370px;
-	height: 294px;
-	left: 615px;
-	top: 262px;
 }
 .project3 {
-	position: absolute;
-	width: 370px;
-	height: 294px;
-	left: 1015px;
-	top: 262px;
 }
