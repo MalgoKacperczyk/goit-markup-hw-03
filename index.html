@@ -22,42 +22,58 @@
 	</head>
 
 	<body>
-		<div class="container">
-			<header class="header">
+		<header class="header">
+			<div class="container header-wrapper">
 				<a href="./index.html" class="logo-header">
 					<span class="logo-accent">Web</span>
 					Studio
 				</a>
-				<nav>
+				<nav class="menu-wrapper">
 					<ul class="menu">
 						<li><a href="./index.html" class="current top-navigation-main-page">Agencja</a></li>
-						<li><a href="./portfolio.html" class="top-navigation-main-page portfolio">Portfolio</a></li>
-						<li><a href="#" class="top-navigation-main-page contact">Kontakt</a></li>
+						<li><a href="./portfolio.html" class="top-navigation-main-page">Portfolio</a></li>
+						<li><a href="#" class="top-navigation-main-page">Kontakt</a></li>
 					</ul>
 				</nav>
 				<ul class="top-contact">
 					<li>
-						<a href="mailto:info@devstudio.com" class="top-contact-item mail">info@devstudio.com</a>
+						<a href="mailto:info@devstudio.com" class="top-contact-item">info@devstudio.com</a>
 					</li>
 					<li>
 						<a href="tel:+48111111111" class="top-contact-item">+48 111 111 111</a>
 					</li>
 				</ul>
-			</header>
-			<main>
-				<!-- Hero -->
-				<section class="hero-section section">
-					<div class="hero-container">
-						<h1 class="title-main-page">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-						<button type="button" class="button-main-page">Zamów usługe</button>
-					</div>
-				</section>
+			</div>
+		</header>
+		<main>
+			<!-- Hero -->
+			<section class="hero-section">
+				<div class="container">
+					<h1 class="title-main-page">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+					<button type="button" class="button-main-page">Zamów usługe</button>
+				</div>
+			</section>
 
-				<!--Our streghts-->
-				<section>
+			<!--Our streghts-->
+			<section>
+				<div class="container">
 					<h2 class="visually-hidden">Second title hidden</h2>
 					<ul class="our-strenghts">
-						<li class="our-strenghts-item">
+						<li>
+							<h3 class="our-strenghts-title">LOREM IPSUM</h3>
+							<p class="our-strenght-text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum
+								et malesuada
+							</p>
+						</li>
+						<li>
+							<h3 class="our-strenghts-title">LOREM IPSUM</h3>
+							<p class="our-strenght-text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum
+								et malesuada
+							</p>
+						</li>
+						<li>
 							<h3 class="our-strenghts-title">LOREM IPSUM</h3>
 							<p class="our-strenght-text">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum
@@ -65,20 +81,6 @@
 							</p>
 						</li>
 						<li class="our-strenghts-item">
-							<h3 class="our-strenghts-title">LOREM IPSUM</h3>
-							<p class="our-strenght-text">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum
-								et malesuada
-							</p>
-						</li>
-						<li class="our-strenghts-item">
-							<h3 class="our-strenghts-title">LOREM IPSUM</h3>
-							<p class="our-strenght-text">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum
-								et malesuada
-							</p>
-						</li>
-						<li class="our-strenghts-item last">
 							<h3 class="our-strenghts-title">LOREM IPSUM</h3>
 							<p class="our-strenght-text">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum
@@ -86,43 +88,35 @@
 							</p>
 						</li>
 					</ul>
-				</section>
+				</div>
+			</section>
 
-				<!--What we do-->
-				<section>
-					<div class="what-we-do section">
-						<h2 class="what-we-do-title">Czym się zajmujemy</h2>
-						<ul class="what-we-do-list">
-							<li class="what-we-do-item">
-								<img
-									src="./images/what_we_do/what_we_do_img1.jpg"
-									alt="Programowanie strony"
-									width="370"
-									height="294"
-								/>
-							</li>
-							<li class="what-we-do-item">
-								<img
-									src="./images/what_we_do/what_we_do_img2.jpg"
-									alt="Projektowanie aplikacji"
-									width="370"
-									height="294"
-								/>
-							</li>
-							<li class="what-we-do-item last">
-								<img
-									src="./images/what_we_do/what_we_do_img3.jpg"
-									alt="Wybór kolorów na ipad"
-									width="370"
-									height="294"
-								/>
-							</li>
-						</ul>
-					</div>
-				</section>
+			<!--What we do-->
+			<section>
+				<div class="container section">
+					<h2 class="what-we-do-title">Czym się zajmujemy</h2>
+					<ul class="what-we-do-list">
+						<li>
+							<img src="./images/what_we_do/what_we_do_img1.jpg" alt="Programowanie strony" width="370" height="294" />
+						</li>
+						<li>
+							<img
+								src="./images/what_we_do/what_we_do_img2.jpg"
+								alt="Projektowanie aplikacji"
+								width="370"
+								height="294"
+							/>
+						</li>
+						<li>
+							<img src="./images/what_we_do/what_we_do_img3.jpg" alt="Wybór kolorów na ipad" width="370" height="294" />
+						</li>
+					</ul>
+				</div>
+			</section>
 
-				<!--Our team-->
-				<section class="our-team section">
+			<!--Our team-->
+			<section class="our-team section">
+				<div class="container">
 					<h2 class="our-team-title">Nasz zespół</h2>
 					<ul class="our-team-list">
 						<li class="our-team-item">
@@ -161,16 +155,18 @@
 							<p class="team-job">UI Designer</p>
 						</li>
 					</ul>
-				</section>
-			</main>
-			<footer>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="container">
 				<a href="/index.html" class="logo-footer">
 					<span class="logo-accent">Web</span>
 					<span class="logo-bottom">Studio</span>
 				</a>
 				<address>
 					<ul>
-						<li class="address-container">
+						<li class="address-wrapper">
 							<a
 								href="https://goo.gl/maps/RDSqijWgZHZxU6bx8"
 								target="_blank"
@@ -180,11 +176,12 @@
 								m. Warszawa, Aleje Jerozolimskie 21
 							</a>
 						</li>
-						<li class="mail"><a href="mailto:info@example.com" class="bottom-contact mail">info@example.com</a></li>
+
+						<li class="mail"><a href="mailto:info@example.com" class="bottom-contact">info@example.com</a></li>
 						<li><a href="tel:+48111111111" class="bottom-contact">+48 111 111 111</a></li>
 					</ul>
 				</address>
-			</footer>
-		</div>
+			</div>
+		</footer>
 	</body>
 </html>
